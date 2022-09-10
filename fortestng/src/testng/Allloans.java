@@ -9,12 +9,12 @@ public class Allloans {
 	@BeforeTest
 	public void bft()
 	{
-		System.out.println("start test");
+		System.out.println("start the test");
 	}
 	@AfterTest
 	public void aft()
 	{
-		System.out.println("end test");
+		System.out.println("end the test");
 	}
 	@Test(groups = {"system","regression"})
 	public void carloan()
